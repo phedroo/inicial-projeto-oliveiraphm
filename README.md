@@ -1,4 +1,3 @@
-
 # Fapesp
 
 Título: Modelagem Computacional da Concentração Atmosférica de CO2 e CH4 no Brasil Central
@@ -297,5 +296,20 @@ Produtos FTS-2 Nível 2 (FTS-2 L1B):
   de preenchimento físico máximo a posteriori (MAP) e sob a suposição 
   de condições de céu limpo
   
-  
 
+## Alteração de nome do projeto pelo repositório
+
+O projeto e repositório inicialmente recebiam o nome de "Fapesp", alterou-se para "inicial-fapesp".
+Essa alteração pode resultar em erros inconvenientes durantes o push.
+
+Para corrigir isto:
+
+1. No `Terminal`, verificou-se essa alteração por meio do comando: `git remote -v`, onde:
+  1.1 Apareceu: `origin https://github.com/MEU-USUARIO/Fapesp.git` - indicando que
+  ainda está apontando para o repositório antigo.
+
+2. Atualizando o URL para o novo nome
+  2.1 Substitua pelo novo endereço: 
+  Rode o seguinte código no Terminal: `git remote set-url origin https://github.com/MEU-USUARIO/inicial-fapesp.git`
+  
+######### git remote set-url origin https://github.com/phedroo/Fapesp.git
